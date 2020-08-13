@@ -1,70 +1,12 @@
 body {
     padding: 15px;
-    background-image: linear-gradient(blue, white);
-}
-
-.header-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -30px;
-}
-
-.header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
-
-    position: fixed;
-    top: 0;
-
-    margin-bottom: 50px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-
-.sticky + .content {
-    padding-top: 102px;
-}
-
-.spokane-logo img {
+    background-image: url(../images/rv500w.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20px;
     position: relative;
-}
-
-.links-wrapper {
-    position: relative;
-    right: -300px;
-    color: white;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.links-wrapper a {
-    color: white;
-    text-decoration: none;
-}
-
-.link:hover a {
-    color: black;
-    text-decoration: #7c3626 underline;
-}
-
-.social-links {
-    position: relative;
-    right: -420px;
-}
-
-.social-links i {
-    color: white;
-}
-
-.social-links a {
-    padding: 5px;
+    top: 390px;
 }
 
 .content-wrapper {
@@ -154,42 +96,3 @@ body {
     color: #7284a8
 }
 
-.footer-wrapper {
-    background-color: #333333;
-    color: white;
-    padding: 20px;
-    margin: -30px;
-    margin-top: 15px;
-}
-
-.footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.contact-wrapper a {
-    color: white;
-    text-decoration: none;
-    position: relative;
-    right: -80px;
-}
-
-.footer-links-wrapper a {
-    position: relative;
-    color: white;
-    text-decoration: none;
-}
-
-.footer-social-links {
-    position: relative;
-    right: -1050px;
-}
-
-.footer-social-links a {
-    padding: 5px;
-}
-
-.footer-logo img {
-    position: relative;
-    right: -180px;
-}

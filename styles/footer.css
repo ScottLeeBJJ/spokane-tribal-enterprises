@@ -1,0 +1,40 @@
+.footer-wrapper {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    margin: -30px;
+    margin-top: 15px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.contact-wrapper a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: -80px;
+}
+
+.footer-links-wrapper a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-social-links {
+    position: relative;
+    right: -1050px;
+}
+
+.footer-social-links a {
+    padding: 5px;
+}
+
+.footer-logo img {
+    position: relative;
+    right: -60px;
+    height: 70px;
+}

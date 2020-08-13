@@ -1,0 +1,70 @@
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -30px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+
+    background-color: #333333;
+    opacity: 0.8;
+
+    position: fixed;
+    top: 0;
+
+    margin-bottom: 50px;
+}
+
+.spokane-logo img {
+    height: 100px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+.spokane-logo img {
+    position: relative;
+}
+
+.links-wrapper {
+    position: relative;
+    right: -300px;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.links-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover a {
+    color: black;
+    text-decoration: #7c3626 underline;
+}
+
+.social-links {
+    position: relative;
+    right: -420px;
+}
+
+.social-links i {
+    color: white;
+}
+
+.social-links a {
+    padding: 5px;
+}
