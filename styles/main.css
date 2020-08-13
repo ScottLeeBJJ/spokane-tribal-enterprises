@@ -1,7 +1,13 @@
+body {
+    padding: 15px;
+    background-image: linear-gradient(blue, white);
+}
+
 .header-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: -30px;
 }
 
 .header {
@@ -12,7 +18,7 @@
     position: fixed;
     top: 0;
 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .sticky {
@@ -27,46 +33,163 @@
 
 .spokane-logo img {
     position: relative;
-    left: -150px;
 }
 
 .links-wrapper {
     position: relative;
-    right: -450px;
+    right: -300px;
     color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.links-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover a {
+    color: black;
+    text-decoration: #7c3626 underline;
 }
 
 .social-links {
     position: relative;
-    right: -480px;
+    right: -420px;
+}
+
+.social-links i {
+    color: white;
+}
+
+.social-links a {
+    padding: 5px;
 }
 
 .content-wrapper {
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .top-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: white;
+
+    position: relative;
+    right: -120px;
 }
 
 .discover-btn {
-    width: 100px;
-    height: 25px;
+    width: 125px;
+    height: 45px;
     border-radius: 15px;
     margin-bottom: 25px;
     background-color: transparent;
+    border-color: white;
+    color: white;
 }
 
-.first-statement {
+.discover-btn a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
 
+.statement1 {
+    color: #7c3626;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    position: relative;
+    right: -350px;
+
+    margin-top: 35px;
+}
+
+.statement1-underlying {
+    position: relative;
+    right: -300px;
+
+    color: #7284a8;
+}
+
+.statement1-underlying button {
+    position: relative;
+    right: -400px;
+}
+
+.first-btn {
+    padding: -20px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    color: #7c3626;
+}
+
+.hover-image-statements {
+    display: flex;
+    justify-content: center;
+
+    color: #7284a8;
+
+    margin-top: 80px;
+}
+
+.hover-image-statements img {
+    margin-bottom: 10px;
+    margin: -40px;
+}
+
+.opportunities-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 150px;
+}
+
+.opportunities-text {
+    color: #7284a8
+}
+
+.footer-wrapper {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    margin: -30px;
+    margin-top: 15px;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.contact-wrapper a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: -80px;
+}
 
+.footer-links-wrapper a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
 
+.footer-social-links {
+    position: relative;
+    right: -1050px;
+}
+
+.footer-social-links a {
+    padding: 5px;
+}
+
+.footer-logo img {
+    position: relative;
+    right: -180px;
+}
