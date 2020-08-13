@@ -80,19 +80,77 @@ body {
     margin-top: 80px;
 }
 
+.hover-image-statements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.hover-image {
+    position: relative;
+    right: -150px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+.hover-image:hover img {
+    opacity: 0;
+}
+
+.hover-text {
+    opacity: 0;
+
+    font-size: 35px;
+
+    position: relative;
+    left: -250px;
+    top: -50px;
+}
+
+.hover-text:hover {
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
 .hover-image-statements img {
     margin-bottom: 10px;
     margin: -40px;
+
+    position: relative;
+    left: -50px;
+
+    height: 200px;
+}
+
+.innovation {
+    color: #7c3626;
+    position: relative;
+    left: -50px;
+    top: -100px;
 }
 
 .opportunities-image {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    margin: 150px;
+    position: relative;
+    left: -50px;
+}
+
+.opportunities-image img {
+    height: 500px;
+
+    position: relative;
+    right: -300px;
 }
 
 .opportunities-text {
     color: #7284a8
 }
-

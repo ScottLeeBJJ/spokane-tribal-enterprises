@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
 
-    background-color: #333333;
+    background-image: linear-gradient(black, white);
     opacity: 0.8;
 
     position: fixed;
@@ -52,7 +52,7 @@
 }
 
 .link:hover a {
-    color: black;
+    color: goldenrod;
     text-decoration: #7c3626 underline;
 }
 
@@ -67,4 +67,12 @@
 
 .social-links a {
     padding: 5px;
+}
+
+.social-links:hover a {
+    font-size: 25px;
+}
+
+.social-links:hover i {
+    color: goldenrod;
 }
