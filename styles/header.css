@@ -20,6 +20,10 @@
 }
 
 .spokane-logo img {
+    height: 75px;
+}
+
+.spokane-logo:hover img {
     height: 100px;
 }
 
