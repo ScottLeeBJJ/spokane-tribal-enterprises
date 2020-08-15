@@ -1,0 +1,10 @@
+body {
+    padding: 15px;
+    background-image: url(../images/rv500w.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    position: relative;
+    top: 390px;
+}

@@ -1,0 +1,58 @@
+body {
+    padding: 15px;
+    background-image: url(../images/rv500w.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    position: relative;
+    top: 450px;
+}
+
+.dual-background {
+    height: 700px;
+}
+
+.about-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content1 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    position: relative;
+    right: -200px;
+    top: -250px;
+
+    color: white;
+
+    margin-right: 100px;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+
+    position: relative;
+    top: -500px;
+    right: -400px;
+
+    font-size: 30px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    position: relative;
+    right: -250px;
+
+    color: white;
+
+    margin-right: 100px;
+}
+
