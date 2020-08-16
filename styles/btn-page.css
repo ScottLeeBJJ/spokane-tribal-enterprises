@@ -1,0 +1,21 @@
+.top-img img {
+    width: 100vw;
+    height: 70vh;
+
+    position: relative;
+    left: -10px;
+}
+
+.first-statement {
+    padding-bottom: 150px;
+
+    position: relative;
+    right: -800px;
+
+    color: #7284a8;
+}
+
+.second-statement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -8,3 +8,17 @@ body {
     position: relative;
     top: 390px;
 }
+
+.first-btn {
+    padding: -20px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    color: #7c3626;
+}
+
+.first-btn a {
+    color: #7c3626;
+    text-decoration: none;
+}

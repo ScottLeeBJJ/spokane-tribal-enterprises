@@ -102,6 +102,8 @@ body {
     border-radius: 12px;
     padding: 10px;
     color: #7c3626;
+
+    cursor: pointer;
 }
 
 .about-content5 {

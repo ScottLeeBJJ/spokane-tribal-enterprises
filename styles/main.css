@@ -51,15 +51,6 @@
     right: -400px;
 }
 
-.first-btn {
-    padding: -20px;
-    background-color: transparent;
-    font-size: 20px;
-    border-radius: 12px;
-    padding: 10px;
-    color: #7c3626;
-}
-
 .hover-image-statements {
     display: flex;
     justify-content: center;
