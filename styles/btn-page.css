@@ -15,7 +15,55 @@
     color: #7284a8;
 }
 
+.second-statement button {
+    padding: -20px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    color: #7c3626;
+}
+
 .second-statement {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    padding-bottom: 200px;
 }
+
+.third-statement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding-bottom: 200px;
+}
+
+.third-statement button {
+    padding: -20px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    color: #7c3626;
+}
+
+.img1 {
+    height: 500px;
+}
+
+.img2 {
+    height: 200px;
+
+    padding-bottom: 200px;
+}
+
+.fourth-statement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-img img {
+    height: 200px;
+    padding: 60px;
+}
+
