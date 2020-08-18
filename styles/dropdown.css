@@ -40,10 +40,10 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd; border-radius: 15px;}
+  .dropdown-content a:hover {background-color: #7284a8; border-radius: 15px;}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block; transition: .5s;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: white; color: black;}
+  .dropdown:hover .dropbtn {background-color: #7284a8; color: black; transition: .5s;}

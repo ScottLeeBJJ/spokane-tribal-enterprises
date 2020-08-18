@@ -6,7 +6,7 @@ body {
     background-size: cover;
     height: 20px;
     position: relative;
-    top: 390px;
+    top: 350px;
 }
 
 .first-btn {
@@ -21,4 +21,62 @@ body {
 .first-btn a {
     color: #7c3626;
     text-decoration: none;
+}
+
+.content-wrapper {
+    margin-top: 200px;
+}
+
+.top-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+
+    font-size: 30px;
+
+    position: relative;
+    right: -120px;
+    top: -300px;
+}
+
+.top-phrase {
+    z-index: 99999;
+}
+
+.top-content-img img {
+    height: 500px;
+}
+
+.top-content-img:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.discover-btn {
+    width: 125px;
+    height: 45px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.discover-btn a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.discover-btn:hover a {
+    color: goldenrod;
+    transition: 0.5s;
+}
+
+.discover-btn:hover {
+    color: goldenrod;
+    transition: 0.5s;
+    border-color: #7284a8;
+    background-color: #7284a8;
 }
