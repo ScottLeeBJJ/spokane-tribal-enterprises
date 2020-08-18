@@ -60,6 +60,7 @@
 .fourth-statement {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
 }
 
 .left-img img {
@@ -67,3 +68,39 @@
     padding: 60px;
 }
 
+.fifth-statement {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 500px;
+}
+
+.fifth-img {
+    padding: 50px;
+}
+
+.img-one img {
+    height: 400px;
+}
+
+.img-two img {
+    position: relative;
+    top: -150px;
+    right: -270px;
+
+    height: 250px;
+}
+
+.fifth-content {
+    position: relative;
+    top: 100px;
+}
+
+.fifth-content button {
+    padding: -20px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    color: #7c3626;
+}
