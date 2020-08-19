@@ -46,13 +46,14 @@
 .links-wrapper a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .link:hover a {
     color: goldenrod;
     text-decoration: #7c3626 underline;
     transition: .5s;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .social-links {

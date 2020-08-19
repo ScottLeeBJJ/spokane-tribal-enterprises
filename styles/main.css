@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .statement1 {
     color: #7c3626;
     display: grid;
@@ -65,7 +69,7 @@
 .hover-text {
     opacity: 0;
 
-    font-size: 20px;
+    font-size: 18px;
 
     position: relative;
     left: -250px;
