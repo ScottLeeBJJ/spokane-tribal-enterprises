@@ -1,0 +1,9 @@
+.hidden-img img {
+    position: relative;
+    right: -1250px;
+
+    filter: grayscale(1);
+    opacity: 10%;
+
+    height: 100px;
+}
