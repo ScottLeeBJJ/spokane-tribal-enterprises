@@ -16,5 +16,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     position: relative;
-    right: -650px;
+    right: -550px;
+
+    padding-bottom: 50px;
+}
+
+.contact-form form {
+    padding-top: 100px;
+}
+
+.contact-input {
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+
+    padding: 10px;
+}
+
+.contact-textarea {
+    border: black solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    height: 200px;
 }
