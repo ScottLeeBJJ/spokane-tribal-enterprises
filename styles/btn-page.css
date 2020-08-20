@@ -31,11 +31,22 @@
     padding-bottom: 200px;
 }
 
+.second-statement a {
+    color: #7c3626;
+    text-decoration: none;
+}
+
 .third-statement {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     padding-bottom: 200px;
+}
+
+.third-statement a {
+    color: #7c3626;
+    text-decoration: none;
+    font-size: 
 }
 
 .third-statement button {
@@ -45,6 +56,10 @@
     border-radius: 12px;
     padding: 10px;
     color: #7c3626;
+}
+
+.third-statement img {
+    padding-right: 50px;
 }
 
 .img1 {
@@ -73,6 +88,11 @@
     justify-content: center;
 
     padding-bottom: 500px;
+}
+
+.fifth-statement a {
+    color: #7c3626;
+    text-decoration: none;
 }
 
 .fifth-img {
