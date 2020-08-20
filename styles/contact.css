@@ -1,0 +1,20 @@
+.contact-page-background {
+    background-repeat: no-repeat;
+
+    height: 500px;
+
+    padding-bottom: 50px;
+}
+
+.contact-page-background img {
+    width: 100vw;
+    height: 570px;
+    margin: -20px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    right: -650px;
+}
