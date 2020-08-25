@@ -1,16 +1,16 @@
 body {
-    padding: 15px;
-    background-image: url(../images/rv500w.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 20px;
-    position: relative;
-    top: 450px;
+    margin-left: -5px;
+}
+
+.background-image img {
+    filter: blur(8px);
 }
 
 .dual-background {
-    height: 700px;
+    height: 600px;
+    position: relative;
+    top: -650px;
+    right: -50px;
 }
 
 .about-content-wrapper {
@@ -25,7 +25,7 @@ body {
 
     position: relative;
     right: -200px;
-    top: -250px;
+    top: -200px;
 
     color: white;
 
@@ -38,10 +38,18 @@ body {
     width: 300px;
 
     position: relative;
-    top: -600px;
+    top: -1200px;
     right: -400px;
 
     font-size: 50px;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#subtext {
+    font-size: 30px;
 }
 
 .about-content2 {
@@ -167,3 +175,4 @@ body {
 
     margin-right: 100px;
 }
+

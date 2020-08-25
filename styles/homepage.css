@@ -1,10 +1,10 @@
 body {
     padding: 15px;
-    background-image: url(../images/rv500w.png);
+    background-image: url(../images/tribephoto.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 20px;
+    height: 700px;
     position: relative;
     top: 350px;
 }
@@ -41,10 +41,16 @@ body {
 
 .top-phrase {
     z-index: 99999;
+
+    width: 700px;
 }
 
 .top-content-img img {
     height: 500px;
+    width: 1000px;
+
+    position: relative;
+    left: -150px;
 }
 
 .top-content-img:hover img {
@@ -79,4 +85,21 @@ body {
     transition: 0.5s;
     border-color: #7284a8;
     background-color: #7284a8;
+}
+
+.statement1 img {
+    height: 300px;
+}
+
+.opportunities-image img {
+    height: 500px;
+    width: 750px;
+
+    position: relative;
+    left: 150px;
+}
+
+.opportunities-text {
+    position: relative;
+    right: -250px;
 }
