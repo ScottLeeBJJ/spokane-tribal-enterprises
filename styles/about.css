@@ -6,10 +6,18 @@ body {
     filter: blur(8px);
 }
 
+.tribelogo img {
+    filter: blur(0);
+    position: relative;
+    right: -700px;
+    top: -200px;
+    height: 250px;
+}
+
 .dual-background {
     height: 600px;
     position: relative;
-    top: -650px;
+    top: -850px;
     right: -50px;
 }
 
@@ -25,7 +33,7 @@ body {
 
     position: relative;
     right: -200px;
-    top: -200px;
+    top: -300px;
 
     color: white;
 
@@ -38,7 +46,7 @@ body {
     width: 300px;
 
     position: relative;
-    top: -1200px;
+    top: -1400px;
     right: -400px;
 
     font-size: 50px;
@@ -58,7 +66,7 @@ body {
 
     position: relative;
     right: -160px;
-    top: -300px;
+    top: -1000px;
 
     padding-bottom: 50px;
 
@@ -69,12 +77,19 @@ body {
     padding-bottom: 200px;
 }
 
+.about-content2 img {
+    height: 500px;
+    width: 900px;
+
+    padding-left: 30px;
+}
+
 .about-content3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     position: relative;
-    right: 30px;
+    right: 10px;
     top: -300px;
 
     padding-bottom: 50px;
