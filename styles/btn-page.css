@@ -29,11 +29,21 @@
     grid-template-columns: 1fr 1fr;
 
     padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .second-statement a {
     color: #7c3626;
     text-decoration: none;
+}
+
+.second-statement-img img {
+    height: 400px;
+}
+
+.underlying-images img {
+    height: 131px;
 }
 
 .third-statement {
@@ -80,6 +90,10 @@
 .left-img img {
     height: 200px;
     padding: 60px;
+}
+
+.right-img img {
+    height: 400px;
 }
 
 .fifth-statement {
