@@ -1,0 +1,49 @@
+@media (max-width: 615px) {
+    .header {
+        flex-direction: column;
+        height: 50px;
+        width: 500px;
+    }
+
+
+
+    .spokane-logo img {
+        height: 40px;
+    }
+
+    .spokane-logo:hover img {
+        filter: none;
+        height: 40px;
+    }
+
+    .links-wrapper {
+        position: relative;
+        left: 15px;
+    }
+
+    .links-wrapper a {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .link:hover a {
+        font-size: 12px;
+    }
+
+    .dropdown {
+        padding: 2px;
+    }
+
+    .dropbtn {
+        font-size: 15px;
+    }
+
+    .social-links {
+        position: relative;
+        left: 25px;
+    }
+
+    .social-links:hover a {
+        font-size: 20px;
+    }
+}
