@@ -1,0 +1,30 @@
+@media (max-width: 615px) {
+    .footer-wrapper {
+        height: 30px;
+        width: 500px;
+    }
+
+    .footer-wrapper a {
+        position: relative;
+        left: 20px;
+
+        font-size: 12px;
+    }
+
+    .footer-social-links a {
+        position: relative;
+        left: -800px;
+    }
+
+    .footer-links-wrapper a {
+        position: relative;
+        left: -125px;
+    }
+
+    .footer-logo img {
+        height: 25px;
+
+        position: relative;
+        left: -125px;
+    }
+}

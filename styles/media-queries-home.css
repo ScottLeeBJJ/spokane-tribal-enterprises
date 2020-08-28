@@ -23,6 +23,88 @@
     }
 
     .first-statement {
-        
+        position: relative;
+        left: -300px;
+        top: -100px;
+    }
+
+    .statement1 {
+        font-size: 15px;
+    }
+
+    .statement1-underlying {
+        font-size: 14px;
+    }
+
+    .statement1 img {
+        height: 200px;
+        width: 250px;
+    }
+
+    .first-btn {
+        position: relative;
+        left: 170px;
+    }
+
+    .hover-image-statements {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        position: relative;
+        top: -250px;
+        left: -100px;
+    }
+
+    .hover-image-statements img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .history {
+        color: #7c3626;
+        position: relative;
+        left: -100px;
+        top: -70px;
+    }
+    
+    .opportunity {
+        color: #7c3626;
+        position: relative;
+        left: -100px;
+        top: -130px;
+    }
+    
+    .innovation {
+        color: #7c3626;
+        position: relative;
+        left: -100px;
+        top: -90px;
+    }
+
+    .hover-image:hover > .hover-text {
+        opacity: 1;
+        transition: ease-in-out 0.5s;
+        left: -50px;
+        top: -10px;
+    }
+
+    .opportunities-image {
+        position: relative;
+        top: -500px;
+        left: -160px;
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .opportunities-image img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .opportunities-text {
+        width: 350px;
+        position: relative;
+        left: 150px;
     }
 }
