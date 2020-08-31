@@ -1,0 +1,41 @@
+@media (max-width: 615px) {
+    body {
+        position: relative;
+        top: 50px;
+    }
+    
+    .about-content1 {
+        position: relative;
+        top: 220px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .dual-background {
+        height: 300px;
+        width: 300px;
+
+        position: relative;
+        left: -100px;
+    }
+
+    .tribelogo {
+        position: relative;
+        left: -500px;
+        top: 120px;
+    }
+
+    .tribelogo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .about-content2 {
+        position: relative;
+        top: 200px;
+
+        width: 500px;
+    }
+
+    
+}
