@@ -8,20 +8,20 @@
         position: relative;
         top: 220px;
         width: 300px;
-        height: 300px;
+        height: 400px;
     }
 
     .dual-background {
         height: 300px;
-        width: 300px;
+        width: 350px;
 
         position: relative;
-        left: -100px;
+        left: -125px;
     }
 
     .tribelogo {
         position: relative;
-        left: -500px;
+        left: -450px;
         top: 120px;
     }
 
@@ -33,9 +33,77 @@
     .about-content2 {
         position: relative;
         top: 200px;
+    }
 
+    .content2 {
+        width: 400px;
+        position: relative;
+        left: -90px;
+    }
+
+    .about-content2 img {
+        position: relative;
+        top: -500px;
+        left: -560px;
+        padding-bottom: 700px;
+
+        width: 500px;
+        height: 400px;
+    }
+
+    .about-content3 img {
+        padding-top: 300px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .about-content4 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        position: relative;
+        left: -10px;
+    }
+
+    .content4 {
+        width: 400px;
+
+        position: relative;
+        right: -50px;
+    }
+
+    .about-content4 img {
         width: 500px;
     }
 
-    
+    .about-content5 img {
+        width: 600px;
+        height: 300px;
+    }
+
+    .about-content6 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        position: relative;
+        left: -10px;
+
+        margin-bottom: -200px;
+    }
+
+    .about-content6 img {
+        width: 500px;
+    }
+
+    .content6 {
+        width: 300px;
+        position: relative;
+        right: -40px;
+        top: -10px;
+    }
+
+    .footer-wrapper {
+        position: relative;
+        right: -30px;
+    }
 }

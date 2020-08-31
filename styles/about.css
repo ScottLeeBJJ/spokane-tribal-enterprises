@@ -10,7 +10,7 @@ body {
 .tribelogo img {
     filter: blur(0);
     position: relative;
-    right: -700px;
+    right: -650px;
     top: -200px;
     height: 250px;
     width: 300px;
@@ -187,7 +187,6 @@ body {
     color: black;
 
     margin-right: 100px;
-    margin-bottom: -900px;
 }
 
 .content6 {
