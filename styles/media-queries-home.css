@@ -1,6 +1,8 @@
 @media (max-width: 615px) {
     body {
         height: 600px;
+
+        overflow-x: hidden;
     }
 
     .top-phrase {
@@ -14,7 +16,7 @@
 
     .top-content-img img {
         height: 300px;
-        width: 400px;
+        width: 450px;
     }
 
     .discover-btn {
@@ -24,12 +26,12 @@
 
     .first-statement {
         position: relative;
-        left: -300px;
+        left: -320px;
         top: -100px;
     }
 
     .statement1 {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .statement1-underlying {
@@ -43,7 +45,7 @@
 
     .first-btn {
         position: relative;
-        left: 170px;
+        left: 130px;
     }
 
     .hover-image-statements {
@@ -52,7 +54,7 @@
 
         position: relative;
         top: -250px;
-        left: -100px;
+        left: -80px;
     }
 
     .hover-image-statements img {

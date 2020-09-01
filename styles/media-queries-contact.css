@@ -1,0 +1,25 @@
+@media (max-width: 615px) {
+    .contact-page-background img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .contact-form-wrapper {
+        position: relative;
+        left: -500px;
+        top: -250px;
+    }
+
+    .contact-form input {
+        width: 400px;
+    }
+
+    .contact-form textarea {
+        width: 400px;
+    }
+
+    .contact-button {
+        position: relative;
+        left: 20px;
+    }
+}

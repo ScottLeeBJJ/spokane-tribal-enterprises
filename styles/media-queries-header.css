@@ -2,13 +2,12 @@
     .header {
         flex-direction: column;
         height: 50px;
-        width: 500px;
+        width: 415px;
     }
 
-
-
     .spokane-logo img {
-        height: 40px;
+        height: 30px;
+        margin-left: 8px;
     }
 
     .spokane-logo:hover img {
@@ -23,7 +22,7 @@
 
     .links-wrapper a {
         font-size: 12px;
-        padding: 2px;
+        padding: 1px;
     }
 
     .link:hover a {
@@ -31,16 +30,19 @@
     }
 
     .dropdown {
-        padding: 2px;
+        padding: 1px;
     }
 
     .dropbtn {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .social-links {
+        display: grid;
+        grid-template-columns: 1fr;
+
         position: relative;
-        left: 25px;
+        left: 20px;
     }
 
     .social-links:hover a {
