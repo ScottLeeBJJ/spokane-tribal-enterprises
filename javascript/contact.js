@@ -19,3 +19,5 @@ $('#contact').submit(function(e) {
     alertify.success('Message sent')
   }
 })
+
+// only the message is sending, must get all other input fields to send via email
