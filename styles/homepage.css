@@ -10,6 +10,15 @@ body {
     overflow-x: hidden;
 }
 
+.layer {
+    background-color: rgba(0, 38, 128, 0.774);
+    position: absolute;
+    top: -350px;
+    left: -10px;
+    width: 100vw;
+    height: 795px;
+}
+
 .first-btn {
     padding: -20px;
     background-color: transparent;
