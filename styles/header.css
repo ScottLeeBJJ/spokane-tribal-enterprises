@@ -52,7 +52,7 @@
 }
 
 .link:hover a {
-    color: goldenrod;
+    /* color: goldenrod; */
     text-decoration: #7c3626 underline;
     transition: .5s;
     font-size: 20px;
