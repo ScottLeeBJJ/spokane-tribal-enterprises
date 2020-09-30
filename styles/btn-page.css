@@ -33,6 +33,10 @@
     padding-right: 50px;
 }
 
+.second-statement-content {
+    width: 600px;
+}
+
 .second-statement a {
     color: #7c3626;
     text-decoration: none;
@@ -130,6 +134,34 @@
 }
 
 .fifth-content button {
+    padding: -20px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    color: #7c3626;
+}
+
+.sixth-statement {
+    position: relative;
+    top: -150px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 20px;
+}
+
+.sixth-statement img {
+    width: 800px;
+}
+
+.sixth-statement a {
+    color: #7c3626;
+    text-decoration: none;
+}
+
+.sixth-statement button {
     padding: -20px;
     background-color: transparent;
     font-size: 20px;

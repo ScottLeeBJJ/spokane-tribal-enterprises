@@ -87,6 +87,10 @@ body {
     width: 100vw;
 }
 
+.content2 {
+    width: 400px;
+}
+
 .about-content2 img {
     height: 500px;
     width: 800px;
@@ -145,6 +149,10 @@ body {
     color: #7c3626;
 
     cursor: pointer;
+}
+
+.content4 {
+    width: 500px;
 }
 
 .about-content4 a {
