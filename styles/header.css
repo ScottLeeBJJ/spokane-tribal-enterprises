@@ -75,7 +75,3 @@
     font-size: 25px;
     transition: .5s;
 }
-
-.social-links:hover i {
-    color: goldenrod;
-}

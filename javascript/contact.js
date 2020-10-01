@@ -9,7 +9,7 @@ $('#contact').submit(function(e) {
     alertify.error("Please chech your entries")
   } else {
     $.ajax({
-      url:"https://formspree.io/scottlee5455@outlook.com",
+      url:"https://formspree.io/marketing@spokoenterprises.com",
       method: "POST",
       data: $(this).serialize(),
       dataType: "json"
