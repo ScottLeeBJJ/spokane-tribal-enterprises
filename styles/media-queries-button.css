@@ -21,7 +21,7 @@
     }
 
     .second-statement-content {
-        width: 400px;
+        width: 300px;
 
         position: relative;
         right: -20px;
@@ -29,6 +29,8 @@
     }
 
     .second-statement-img img {
+        position: relative;
+        left: -50px;
         width: 450px;
     }
 
@@ -42,10 +44,11 @@
     }
 
     .third-statement-img img {
-        width: 420px;
+        width: 400px;
+        height: 300px;
 
         position: relative;
-        left: -10px;
+        left: -30px;
     }
 
     .third-statement-content {
@@ -65,6 +68,12 @@
         left: -60px;
     }
 
+    .right-img {
+        height: 300px;
+        position: relative;
+        left: -50px;
+    }
+
     .fourth-statement img {
         width: 500px;
 
@@ -78,7 +87,7 @@
     }
 
     .fifth-content {
-        width: 400px;
+        width: 300px;
 
         position: relative;
         right: -150px;
@@ -95,5 +104,23 @@
 
         position: relative;
         top: -80px;
+    }
+
+    .sixth-statement {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sixth-content {
+        width: 300px;
+    }
+
+    .sixth-img img {
+        width: 400px;
+        height: 400px;
+
+        position: relative;
+        left: -50px;
+        top: 50px;
     }
 }
